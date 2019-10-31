@@ -34,12 +34,5 @@ $(document).ready(function() {
       $(this).toggleClass("coll-back");
       $(this).addClass("rmv-cls");
     }
-    $(".accordion-main").click(function(e) {
-      e.preventDefault();
-      $(".acc-main")
-        .hide()
-        .eq($(this).index(".open"))
-        .show();
-    });
   });
 });
